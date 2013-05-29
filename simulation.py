@@ -1,5 +1,6 @@
 import random
 import math
+
 def simulate(observation_period = 31556926, max_driveway_length = 10, average_arrival_rate = 90, average_service_rate = 45, average_meal_cost = 3, per_meal_cost = .25):
 	total_cars = 0
 	cars_rejected = 0
